@@ -1,0 +1,21 @@
+#operations in dictionary
+#copy
+b=a.copy()
+print(b)
+#clear
+b.clear()
+print(b)
+#get
+print(a.get('name'))
+#keys
+print(a.keys())
+#values()
+print(a.values())
+#items
+print(a.items())
+#update()
+a.update({'age':16})
+print(a)
+#pop()
+a.pop('course')
+print(a)
